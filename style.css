@@ -1,0 +1,99 @@
+body {
+  background-image: url(/images/bg-intro-desktop.png);
+  background-color: hsl(0, 100%, 74%);
+}
+
+#left-side {
+  width: 50%;
+  height: 100%;
+  color: white;
+  float: left;
+  padding: 250px 100px 250px 100px;
+}
+
+#right-side {
+  width: 50%;
+  height: 100%;
+  color: blue;
+  float: right;
+  padding: 150px 150px 150px 50px;
+}
+
+#container {
+  display: flex;
+}
+
+#left-side h1 {
+  text-align: left;
+  font-size: 45px;
+  font-family: "Poppins", sans-serif;
+}
+
+#left-side p {
+  text-align: left;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn {
+  border: none;
+  color: white;
+  margin-left: 10px;
+  padding: 15px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 5px;
+  box-shadow: 1px 5px 5px grey;
+}
+
+.btn-purple {
+  background-color: hsl(248, 32%, 49%);
+}
+
+.btn-green {
+  background-color: hsl(154, 59%, 51%);
+}
+
+#submit a:hover {
+  background-color: red;
+}
+
+.btn:hover {
+  background-color: hsl(248, 45%, 60%);
+}
+
+form {
+  background-color: white;
+  width: 400px;
+  height: 425px;
+  border-radius: 10px;
+  padding: 10px 25px;
+  margin-top: 20px;
+  display: inline-table;
+  text-align: center;
+}
+
+#right-side form input {
+  display: block;
+  height: 50px;
+  width: 400px;
+  border-radius: 5px;
+  margin: 25px 12px;
+  padding-left: 25px;
+  color: silver;
+  font-family: "Poppins", sans-serif;
+}
+
+input {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+}
+
+#terme {
+  font-size: small;
+  color: silver;
+  font-weight: bolder;
+}
